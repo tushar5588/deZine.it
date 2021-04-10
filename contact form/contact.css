@@ -1,0 +1,97 @@
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background: rgba(0,0,0,0.2) url(images/contact.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-blend-mode: darken;
+color: white;
+}
+h1{
+background;none;
+padding: 0 24px;
+border-radius: 8px;
+font-size: 50px;
+font-family: Roboto Slab, serif;
+margin-bottom: 0px;
+margin-top: 150px;
+}
+form{
+    margin-top: 0px;
+    transition: all 1s ease-in-out;
+    margin-bottom: 200px;
+    margin-top: 30px ;
+
+
+}
+.form-control{
+padding: 15px;
+width: 600px;
+background: none;
+border: none;
+outline:none;
+border-bottom: 1px solid white;
+color: white;
+font-size: 18px;
+margin-top: 18px;
+
+
+}
+.contact-form .submit{
+    width: 200px;
+    margin-left: 105px;
+
+}
+.contact-form .submit:hover{
+    color: black;
+
+}
+@media(max-width:900px){
+    
+        body{
+
+        width: 95%;
+    }
+}
+@media(max-width:719px){
+    body{
+        width: 95%;
+    }
+}
+@media(max-width:600px)
+ {
+    body{
+        width: 85%;
+    }
+}
+@media(min-width:720px){
+    body{
+        width: 95%;
+    }
+}
+@media(min-width:1200px){
+    body{
+        width: 95%;
+    }
+}
+@media(max-width:768px){
+    body{
+        width: 100%;
+        
+    }
+    h1{
+        font-size: 35px;
+    }
+    .form-control{
+        width: 80%;
+        
+    }
+    .contact-form .submit{
+        margin-left:18px;
+        width: 80%;
+    }
+}
